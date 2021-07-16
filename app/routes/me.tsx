@@ -12,7 +12,7 @@ import {H2, H6} from '../components/typography'
 import {Grid} from '../components/grid'
 import {Input, Label} from '../components/form-elements'
 import {Button} from '../components/button'
-import {CheckIcon} from '../components/icons/check-icon'
+import {CheckCircledIcon} from '../components/icons/check-circled-icon'
 import {LogoutIcon} from '../components/icons/logout-icon'
 import {TEAM_MAP} from '../utils/onboarding'
 import {EyeIcon} from '../components/icons/eye-icon'
@@ -207,7 +207,7 @@ function YouScreen() {
 
             <div className="relative col-span-full mb-3 bg-gray-100 dark:bg-gray-800 rounded-lg focus-within:outline-none ring-2 focus-within:ring-2 ring-team-current ring-offset-4 ring-offset-team-current ring-offset-team-current lg:col-span-4 lg:mb-0">
               <span className="absolute left-9 top-9 text-team-current">
-                <CheckIcon />
+                <CheckCircledIcon />
               </span>
 
               <div className="block pb-12 pt-20 px-12 text-center">

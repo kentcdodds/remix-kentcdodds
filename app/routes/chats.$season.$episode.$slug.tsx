@@ -10,7 +10,7 @@ import {H2, H3, H6, Paragraph} from '../components/typography'
 import {Grid} from '../components/grid'
 import {ArrowIcon} from '../components/icons/arrow-icon'
 import {ClipboardIcon} from '../components/icons/clipboard-icon'
-import {CheckIcon} from '../components/icons/check-icon'
+import {CheckCircledIcon} from '../components/icons/check-circled-icon'
 import {GithubIcon} from '../components/icons/github-icon'
 import {TwitterIcon} from '../components/icons/twitter-icon'
 import {PlusIcon} from '../components/icons/plus-icon'
@@ -97,7 +97,7 @@ function Homework({
             key={homeworkHTML}
             className="flex pb-12 pt-8 border-t border-gray-200 dark:border-gray-600"
           >
-            <CheckIcon
+            <CheckCircledIcon
               className="flex-none mr-6 text-gray-400 dark:text-gray-600"
               size={24}
             />

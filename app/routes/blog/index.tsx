@@ -205,6 +205,7 @@ function BlogHome() {
             caption="Featured article"
             cta="Read full article"
             slug={featured.slug}
+            showCopyButton
           />
         </div>
       ) : null}
